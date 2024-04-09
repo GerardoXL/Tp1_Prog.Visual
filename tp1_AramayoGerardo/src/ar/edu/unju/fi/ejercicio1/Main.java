@@ -7,7 +7,7 @@ public class Main {
 		
 		System.out.println("trabajo_practico_n1");
 		
-		System.out.println("prueba_de_autoguardado");
+		System.out.println("prueba_de_commit");
 
 	}
 
