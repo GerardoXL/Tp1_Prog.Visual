@@ -12,7 +12,7 @@ public class Main {
 		int num;
 		
 		
-		System.out.println("ingrese un numero");
+		System.out.println("ingrese un numero");  
 		num=entrada.nextInt();
 		
 		if(num<10) {
