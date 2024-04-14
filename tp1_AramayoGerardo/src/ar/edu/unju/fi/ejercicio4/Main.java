@@ -17,7 +17,7 @@ public class Main {
 	    if(num<=10) {
 	    
 	    while(num>0) {  
-	    	                           //5*4*3*2*1 = 120
+	    	                           //5*4*3*2*1 = 120/
 	    	factorial =factorial*num;
 	    	num = num-1;
 	    	
