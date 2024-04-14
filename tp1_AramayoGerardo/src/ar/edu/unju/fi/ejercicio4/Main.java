@@ -9,13 +9,15 @@ public class Main {
 		
 		Scanner entrada = new Scanner(System.in);
 		int num;
+		int factorial=1;
 		
 	    System.out.println("ingrese un numero");
 	    num=entrada.nextInt();
-	    int factorial=1;
+	    
+	    if(num<=10) {
 	    
 	    while(num>0) {  
-	    	                           //5*4*3*2*1 = 120//
+	    	                           //5*4*3*2*1 = 120
 	    	factorial =factorial*num;
 	    	num = num-1;
 	    	
@@ -23,6 +25,10 @@ public class Main {
 	    	
 	    }
 
+	} else { System.out.println("el numero ingresado excede a 10");
+		
 	}
 
+}
+	
 }
