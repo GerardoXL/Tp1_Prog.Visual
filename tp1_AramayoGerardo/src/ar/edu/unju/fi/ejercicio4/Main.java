@@ -8,14 +8,11 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		Scanner entrada = new Scanner(System.in);
-		int num;               
-		int factorial=1;       
+		int num;
 		
 	    System.out.println("ingrese un numero");
 	    num=entrada.nextInt();
-	    
-	    
-	    if(num<=10) {
+	    int factorial=1;
 	    
 	    while(num>0) {  
 	    	                           //5*4*3*2*1 = 120//
@@ -23,13 +20,9 @@ public class Main {
 	    	num = num-1;
 	    	
 	    	System.out.println("el factorial es " + factorial);
-	    
+	    	
 	    }
 
-	} else { System.out.println("el numero ingresado excede a 10 ");
+	}
 
-}
-	    
-}
-	
 }
