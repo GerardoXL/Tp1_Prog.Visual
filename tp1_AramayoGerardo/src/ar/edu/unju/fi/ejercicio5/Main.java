@@ -26,7 +26,11 @@ public class Main {
 		}
 		
 		} else {System.out.println("el numero ingresado excede a 9");}
+		
+		entrada.close();
 
 	}
+	
+	
 
 }
