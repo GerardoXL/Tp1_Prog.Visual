@@ -21,7 +21,7 @@ public class Main {
 	    	factorial =factorial*num;
 	    	num = num-1;
 	    	
-	    	System.out.println(factorial + " X " + num + "=" + factorial*num);
+	    	System.out.println(factorial + " X " + num + " = " + factorial*num);
 	    	
 	    	
 	    	
@@ -30,7 +30,10 @@ public class Main {
 	} else { System.out.println("el numero ingresado excede a 10");
 		
 	}
+	    
+	    entrada.close();
 
 }
+	
 	
 }
