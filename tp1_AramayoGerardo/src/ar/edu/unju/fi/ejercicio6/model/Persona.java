@@ -36,6 +36,8 @@ public class Persona {
 		this.provincia = provincia;
 	}
 	
+	//calcula la edad de la persona usando perio.between haciendo el calculo
+	//la fecha de nacimiento y la fecha actual 
 	
     public int calculoEdad() {
     	
@@ -43,6 +45,7 @@ public class Persona {
     	
     }
     
+    //verifica si el calculo de edad es mayor a 18 (VoF)
     
     public boolean MayorDeEdad() {
     		
@@ -54,15 +57,52 @@ public class Persona {
     public void MostrarLosDatos() {
     	
     	System.out.println("DNI: " + DNI);
-    	System.out.println("Nombre" + nombre);
-    	System.out.println("Fecha de Nacimiento" + fecha_de_nacimiento);
-    	System.out.println("Provincia" + provincia);
-    	System.out.println("Edad" + calculoEdad());
+    	System.out.println("Nombre: " + nombre);
+    	System.out.println("Fecha de Nacimiento: " + fecha_de_nacimiento);
+    	System.out.println("Provincia: " + provincia);
+    	System.out.println("Edad: " + calculoEdad());
+    	
+    	if(MayorDeEdad()) {
+    		
+    		System.out.println("La persona es mayor de edad");
+    		
+    	} else {
+    		
+    		System.out.println("La persona no es mayor de edad");
+    		
+    	}
     	
     	
+      }
+    
+    //constructor vacio
+    
+    public Persona() {
     	
+    	}
+    //constructor parametrizado
+    
+    public Persona(int DNI, String nombre, LocalDate fecha_de_nacimiento, String provincia) {
+    	
+    	this.DNI = DNI;
+    	this.nombre = nombre;
+    	this.fecha_de_nacimiento = fecha_de_nacimiento;
+    	this.provincia = provincia;
     	
     }
+    
+    //constructor con valor predeterminado
+    
+    public Persona(int DNI, String nombre, LocalDate fecha_de_nacimiento) {
+    	
+    	this.DNI = DNI;
+    	this.nombre = nombre;
+    	this.fecha_de_nacimiento = fecha_de_nacimiento;
+    	this.provincia = "Jujuy";
+    	
+    }
+    
+    
     
     	
     }	
