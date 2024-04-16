@@ -46,9 +46,9 @@ public class Main {
         Persona.MostrarLosDatos();
         
         
+        //se ingresa los datos de la segunda persona
         
-        
-        System.out.println("ingrese los datos de la segunda persona");
+        System.out.println("ingrese los datos de la segunda persona: ");
         
         System.out.println("DNI: ");
         
@@ -68,25 +68,39 @@ public class Main {
         
         String provincia = scanner.nextLine();
         
-        Persona = Persona = new Persona(DNI,nombre,fecha_de_nacimiento,provincia);
+        Persona  Persona2 = new Persona(DNI,nombre,fecha_de_nacimiento,provincia);
         
-        Persona Persona2 = Persona;
         
         Persona2.MostrarLosDatos();
         
+        //se ingresa los datos de la tercera persona
+        
+        System.out.println("ingrese los datos de la tercera persona: ");
+        
+        System.out.println("DNI: ");
+        
+        DNI = scanner.nextInt();
+        
+        scanner.nextLine();
+        
+        System.out.println("Nombre: ");
+        
+        nombre = scanner.nextLine();
+        
+        System.out.println("Fecha de nacimiento: ");
+        
+        fecha_de_nacimiento = LocalDate.parse(scanner.nextLine(), formato);
+        
+        System.out.println("Provincia: ");
+        
+        provincia = scanner.nextLine();
+        
+        Persona Persona3 = new Persona(DNI, nombre, fecha_de_nacimiento);
+        
+        Persona3.MostrarLosDatos();
         
         
         
-        
-        
-		
-		
-		
-		
-		
-		
-		
-
-	}
+		}
 
 }
