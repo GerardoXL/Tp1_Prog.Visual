@@ -3,17 +3,19 @@ package ar.edu.unju.fi.ejercicio8.model;
 public class CalculadoraEspecial {
 	
 	private int n;
-
+	
+   //constructor vacio
 	
 	public CalculadoraEspecial() {
 		
 		this.n = 0;	
 		
 		}
-
+	
+   //accesores
 
 	public int getN() {
-		return n;
+		return this.n;
 	}
 
 
@@ -21,6 +23,7 @@ public class CalculadoraEspecial {
 		this.n = n;
 	}
 	
+	//metodos para calcular la sumatoria
 	
 	public double CalcularSumatoria() {
 		
@@ -32,9 +35,11 @@ public class CalculadoraEspecial {
 			
 			
 		}
-		return sumatoria = 0;
+		return sumatoria;
 		
 	}
+	
+	//metodos para calcular la sumatoria
 	
 	public double calcularProductoria() {
 		
@@ -45,7 +50,7 @@ public class CalculadoraEspecial {
 			productoria = k*(k+4);
 		}
 		
-		return productoria = 1;
+		return productoria;
 		
 	}
 	
