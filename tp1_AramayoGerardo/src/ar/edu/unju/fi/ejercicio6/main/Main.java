@@ -100,6 +100,7 @@ public class Main {
         Persona3.MostrarLosDatos();
         
         
+        scanner.close();
         
 		}
 
