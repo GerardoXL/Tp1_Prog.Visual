@@ -18,7 +18,28 @@ public class Main {
 			nombres[i] = entrada.nextLine();
 			
 		}
+		
+		//bucle while para mostrar los nombres 
+		
+		int indice = 0;
 
+		System.out.println("los que nombres que ingresó son: ");
+		
+		while(indice < nombres.length) {
+			
+			System.out.println(nombres[indice]);
+			
+			indice++;
+		}
+		
+		//se muestra el tamaño del array
+		
+		System.out.println("el tamaño del array es: " + nombres.length);
+		
+		
+		
+		
+		
 	}
 
 }
