@@ -132,6 +132,8 @@ public class Persona {
 	    		
 	    	}
 	     }
+	     
+	     //metodo para saber la estacion del año segun la fecha de nac. del usuario
 	    	
 	    	public String EstacionAnio() {
 	    		
