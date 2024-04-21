@@ -48,6 +48,11 @@ public class Main {
 			
 			EliminarIndice = entrada.nextByte();
 			
+			if(EliminarIndice < 0 || EliminarIndice >= nombres.length) {
+				
+				System.out.println("no existe el indice ");
+			}
+			
 		} while (EliminarIndice < 0 || EliminarIndice >= nombres.length);
 		
 		
