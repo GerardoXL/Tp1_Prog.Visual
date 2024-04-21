@@ -43,7 +43,13 @@ public class Main {
         
         
         System.out.println("Nombre: " + persona.getNombre());
-        System.out.println("Edad: " + persona.CalculoAñosPersona());
+        System.out.println("Fecha de nacimiento: " + fecha_de_nacimiento);
+        System.out.println("Edad: " + persona.CalculoAñosPersona() + " años ");
+        System.out.println("Signo: " + persona.SignoZodiacoPersona());
+        System.out.println("Estacion: " + persona.EstacionAnio());
+        
+        
+        entrada.close();
         
 	}
 
